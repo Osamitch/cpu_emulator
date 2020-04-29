@@ -24,6 +24,7 @@ enum : std::size_t
     MEM_CELL_OUT,
     SUM_OUT,
     SUM_SUBTRACT,
+	MULTIPLY,
     INSTRUCTION_IN,
     INSTRUCTION_OUT,
     COUNTER_INCREMENT,
@@ -55,6 +56,7 @@ enum class Code : HalfSize
 
     ADD = 0x10,
     SUB = 0x12,
+	MLT = 0x11,
 
     JMP = 0x20,
     JNZ = 0x21,
